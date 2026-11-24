@@ -1,1 +1,1 @@
-web:gunicorn todoproject.wsgi:application
+gunicorn todoproject.wsgi:application
